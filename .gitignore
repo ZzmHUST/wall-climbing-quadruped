@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# CubeMX 临时文件
+*.mxproject
+
+# Keil 用户特定文件（个人设置，不传）
+*.uvoptx
+*.uvguix.*
+RTE/
