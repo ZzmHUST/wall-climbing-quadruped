@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "servo.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -70,7 +70,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+    MX_USART1_UART_Init();  
+    Servo_Init(&huart1);    // °ó¶¨¶æ»úµ½ UART1
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/

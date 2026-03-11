@@ -61,3 +61,20 @@ dkms.conf
 *.uvoptx
 *.uvguix.*
 RTE/
+
+# Keil MDK 编译输出
+Quadruped/MDK-ARM/Quadruped/           # 编译生成的目标文件、hex、axf
+Quadruped/MDK-ARM/DebugConfig/         # 调试配置
+Quadruped/MDK-ARM/*.lst                # 汇编列表文件 (startup_xx.lst 等)
+Quadruped/MDK-ARM/*.map                # 内存映射文件
+Quadruped/MDK-ARM/*.uvguix.*           # Keil 个人界面布局
+Quadruped/MDK-ARM/*.uvoptx             # Keil 调试选项（含绝对路径，建议忽略）
+
+# VS Code 个人配置（如果团队共享设置则注释掉）
+Quadruped/MDK-ARM/.vscode/
+
+# 其他临时文件
+*.tmp
+*.bak
+Quadruped/MDK-ARM/Quadruped/
+Quadruped/MDK-ARM/*.lst
