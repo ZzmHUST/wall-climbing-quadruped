@@ -22,6 +22,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "servo.h"
+#include "pp_kinematics.h"
+#include "ypp_kinematics.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
